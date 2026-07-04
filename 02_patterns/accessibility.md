@@ -1,9 +1,11 @@
 # Accessibility (WCAG Compliance)
 
 ## Standards
-- Target: **WCAG 2.1 Level AA**.
+- **Level**: WCAG 2.1 AA.
+- **Focus**: All interactive elements must have a 2px solid outline on `:focus-visible`.
+- **Semantics**: Use `<main>`, `<nav>`, and `<article>` to define page regions.
 
-## Requirements
-- **Keyboard Nav**: All interactive elements must have a visible `:focus` state.
-- **Alt Text**: All images in `04 - Assets` must have descriptive alt text in the markdown.
-- **ARIA**: Use `aria-labels` for icon-only buttons.
+## Checklist
+- [ ] Images have `alt` text in YAML or Markdown.
+- [ ] Contrast ratios verified.
+- [ ] Keyboard-only navigation tested.
