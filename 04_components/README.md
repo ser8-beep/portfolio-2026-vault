@@ -248,3 +248,25 @@ Links.
 - FAB
 - Tooltip
 - Menu
+
+# Button
+
+Standard interactive element for actions and navigation.
+
+## Variants
+- **Primary**: High emphasis, uses `{color.brand.primary}`.
+- **Secondary**: Medium emphasis, uses `{color.brand.accent}`.
+- **Ghost**: Low emphasis, transparent background.
+
+## States
+| State | Visual Change | Token Reference |
+| :--- | :--- | :--- |
+| Default | Solid Background | `{color.brand.primary}` |
+| Hover | Brightness +10% | `{color.state.hover}` |
+| Active | Scale 0.98 | `{motion.speed.fast}` |
+| Disabled | Opacity 0.5 | `{color.state.disabled}` |
+
+## Accessibility
+- **Role**: `button` or `link` (if navigating).
+- **Keyboard**: `Enter` or `Space` to trigger.
+- **Focus**: 2px ring using `{color.brand.accent}`.
