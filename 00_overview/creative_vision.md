@@ -15,3 +15,13 @@ To bridge the gap between industrial-grade design systems and the messy, human m
 - Recruiter clarity on Senior-level leadership (4+ years).
 - Recognition of "Systems Thinking" as a core competency.
 - Seamless navigation between high-fidelity UI and low-fidelity essays.
+
+## Target Audience
+1. Hiring Managers (Product Design)
+2. Design Leads / Directors
+3. Technical Recruiters
+
+## Core Narrative
+- **Expertise**: [e.g., Systems Thinking]
+- **Tone**: Professional, analytical, yet accessible.
+- **Value Proposition**: [e.g., Bridging the gap between data visualization and user empathy.]
