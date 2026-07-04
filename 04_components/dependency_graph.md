@@ -24,3 +24,4 @@ Dependency order:
 04. 05_Pages
 
 A directory may only reference files from its own directory or any directory above it. It must never skip the hierarchy or reference higher-level implementations.
+If a conflict exists, the earlier source always takes precedence.
