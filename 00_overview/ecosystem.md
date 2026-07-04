@@ -1,12 +1,11 @@
-# Ecosystem: Technical Stack & Integrations
+# System Architecture
 
-## Core Stack
-- **Styling:** Tailwind CSS (Utility-first for the "Grid" system), React
+## Tech Stack
+- **Framework**: [e.g., Next.js / Astro]
+- **Styling**: [e.g., Tailwind CSS / CSS Modules]
+- **Content Management**: Manual or Markdown-based (this vault)
 
-## Backend & Data
-- **Database:** Supabase/Firebase (For tracking experiment logs or dynamic data stories).
-- **AI Layer:** Google AI Studio (Used for document sanitization and content structuring).
-
-## Deployment
-- **Hosting:** Vercel,Netlify or Vite
-- **Version Control:** GitHub (main branch = production).
+## Data Flow
+1. Content authored in `.md` files (05 - Pages).
+2. Design System tokens applied via CSS/Tailwind (01 - Design System).
+3. Components rendered based on patterns (02 - Libraries & Patterns).
