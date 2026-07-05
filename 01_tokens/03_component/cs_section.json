@@ -1,0 +1,15 @@
+ "csSection": {
+    "_figmaNode": "42:331",
+    "_variants": ["Title & Description", "Verbatim", "Title & Pointers", "Eyebrow and Description"],
+    "heading": { "value": "{typography.csSectionHeading}" },
+    "label": { "value": "{typography.csSectionLabel}" },
+    "body": { "value": "{typography.bodySmall}" },
+    "textColor": { "value": "{color.text.primary.value}" },
+    "accentColor": { "value": "{color.action.primaryDeep.value}" },
+    "radiusSmall": { "value": "{radius.small.value}" },
+    "radiusControl": { "value": "{radius.control.value}" },
+    "paddingDefault": { "value": "{spacing.10.value}" },
+    "paddingLarge":   { "value": "{spacing.13.value}" },
+    "gap": { "value": "{spacing.8.value}" },
+    "_offScalePadding": "90px, 120px, 310px, 320px not in the spacing scale — recur file-wide (see DESIGN_SYSTEM.md), left as-authored."
+  },

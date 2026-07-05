@@ -1,0 +1,15 @@
+ "dsCard": {
+    "_figmaNode": "42:120",
+    "_variants": ["v01", "v02", "v03", "v04", "v05", "v06"],
+    "_assumption": "6 variants share these structural tokens; per-variant background accent (paper.yellow/pink/sky vs. gray-200/blue-600) varies by which variant — not individually inventoried here.",
+    "labelSmall": { "value": "{typography.dsCardLabelSmall}" },
+    "labelLarge": { "value": "{typography.eyebrowLarge}" },
+    "accentColor": { "value": "{color.action.primary.value}" },
+    "neutralBg": { "value": "{color.gray.200.value}" },
+    "paperAccents": {
+      "yellow": { "value": "{color.paper.yellow.value}" },
+      "pink":   { "value": "{color.paper.pink.value}" },
+      "sky":    { "value": "{color.paper.sky.value}" }
+    },
+    "radius": { "value": "{radius.small.value}" }
+  },

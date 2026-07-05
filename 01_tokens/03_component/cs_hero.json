@@ -1,0 +1,13 @@
+ "csHero": {
+    "_figmaNode": "42:326",
+    "heading": { "value": "{typography.heroCompact}" },
+    "meta": { "value": "{typography.csHeroMeta}" },
+    "textColor": { "value": "{color.text.primary.value}" },
+    "accentColor": { "value": "{color.action.primaryDeep.value}" },
+    "radius": { "value": "{radius.control.value}" },
+    "paddingDefault": { "value": "{spacing.6.value}" },
+    "paddingLarge":   { "value": "{spacing.10.value}" },
+    "gap": { "value": "{spacing.10.value}" },
+    "_offScalePadding": "206px recurs across cs-hero and the wider file (see DESIGN_SYSTEM.md exception log) — likely an intentional grid-column width, not tokenized here.",
+    "_offScaleGap": "10px, 28px, 56px, 328px not in the spacing scale — left as-authored."
+  },

@@ -1,0 +1,13 @@
+ "footer": {
+    "_figmaNode": "42:325",
+    "_assumption": "bg/text direction inferred from color counts (4x ink-900, 1x white) — a dark footer with light text is the standard pattern this suggests, not confirmed against a screenshot.",
+    "bg": { "value": "{color.bg.inverse.value}" },
+    "textColor": { "value": "{color.text.inverse.value}" },
+    "signature": { "value": "{typography.footerSignature}" },
+    "label": { "value": "{typography.footerLabel}" },
+    "body": { "value": "{typography.bodySmall}" },
+    "paddingDefault": { "value": "{spacing.6.value}" },
+    "paddingLarge":   { "value": "{spacing.12.value}" },
+    "paddingXLarge":  { "value": "{spacing.13.value}" },
+    "gap": { "value": "{spacing.9.value}" }
+  },

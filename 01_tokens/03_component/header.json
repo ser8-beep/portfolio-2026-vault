@@ -1,0 +1,7 @@
+ "header": {
+    "_figmaNode": "42:76",
+    "brand": { "value": "{typography.headerBrand}" },
+    "navLabel": { "value": "{typography.headerNavLabel}" },
+    "navLabelColor": { "value": "{color.action.primary.value}" },
+    "brandColor": { "value": "{color.text.primary.value}" }
+  },
