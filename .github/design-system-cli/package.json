@@ -1,0 +1,8 @@
+{
+  "name": "design-system-cli",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "bin": {
+    "ds": "./src/index.js"
+  }
+}
