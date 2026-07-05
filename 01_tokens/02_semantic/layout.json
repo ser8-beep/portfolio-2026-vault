@@ -1,0 +1,32 @@
+ "layout": {
+    "_comment": "Spacing values below map directly onto the ranges in the spec's Section 7 (Spacing System). Each range gets a tight/loose pair rather than a single number, since the spec itself gives a range, not a fixed value.",
+    "spacing": {
+      "paragraph": {
+        "_range": "Spec: 16-24px",
+        "tight": { "value": "{spacing.6.value}" },
+        "loose": { "value": "{spacing.8.value}" }
+      },
+      "headingToParagraph": {
+        "_range": "Spec: 24-40px",
+        "tight": { "value": "{spacing.8.value}" },
+        "loose": { "value": "{spacing.10.value}" }
+      },
+      "section": {
+        "_range": "Spec: 96-160px",
+        "tight": { "value": "{spacing.14.value}" },
+        "loose": { "value": "{spacing.16.value}" }
+      },
+      "list": {
+        "_range": "Spec: 8-12px",
+        "tight": { "value": "{spacing.4.value}" },
+        "loose": { "value": "{spacing.5.value}" }
+      }
+    },
+    "padding": {
+      "_comment": "General-purpose container/frame padding tiers — separate from component.json's per-component paddingX/paddingY, which stay component-specific.",
+      "compact":     { "value": "{spacing.4.value}" },
+      "default":     { "value": "{spacing.6.value}" },
+      "comfortable": { "value": "{spacing.8.value}" },
+      "section":     { "value": "{spacing.11.value}" }
+    }
+  },
