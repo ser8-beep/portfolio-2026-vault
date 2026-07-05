@@ -15,3 +15,10 @@
     "13": { "value": "80px" },
     "14": { "value": "96px" },
     "15": { "value": "128px" }
+
+
+
+      "breakpoint": {
+    "mobile":  { "value": "0px" },
+    "tablet":  { "value": "640px" },
+    "desktop": { "value": "1024px" }
