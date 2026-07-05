@@ -1,4 +1,5 @@
- "color": {
+{
+  "color": {
     "ink": {
       "900": { "value": "#0F0E0E" }
     },
@@ -14,7 +15,7 @@
       "900": { "value": "#002190" }
     },
     "paper": {
-      "_comment": "Decorative colors for the homepage 'notes/collage' section (Homepage/Second+2 Scroll) — 3 sticky-note variants shown together, not per-case-study branding.",
+      "_comment": "Decorative accent palette — originally found on homepage 'notes/collage' sticky notes (Homepage/Second+2 Scroll), also reused as ds-card background accents (v01/v04/v05). Not per-case-study branding.",
       "yellow": { "value": "#F5E29A" },
       "pink":   { "value": "#FFCBEA" },
       "sky":    { "value": "#9DD5FB" }
