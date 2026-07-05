@@ -1,0 +1,10 @@
+ "csImage": {
+    "_figmaNode": "42:425",
+    "_variants": ["number=1", "number=3", "number=4"],
+    "_note": "No number=2 variant exists in Figma — not an omission on this side, matches the file as built.",
+    "placeholderBg": { "value": "{color.bg.surface.value}" },
+    "radiusSmall": { "value": "{radius.small.value}" },
+    "radiusControl": { "value": "{radius.control.value}" },
+    "gap": { "value": "{spacing.4.value}" }
+  }
+}
