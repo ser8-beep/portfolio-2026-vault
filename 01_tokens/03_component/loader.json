@@ -1,0 +1,11 @@
+  "loader": {
+    "_figmaNode": "42:77",
+    "_note": "Componentized version of the page-level Loader frame (0:20595) — same roles, now a reusable master component.",
+    "tagline": { "value": "{typography.loaderTagline}" },
+    "brand": { "value": "{typography.loaderBrand}" },
+    "progressLabel": { "value": "{typography.progressLabel}" },
+    "accentColor": { "value": "{color.action.primary.value}" },
+    "accentColorDeep": { "value": "{color.action.primaryDeep.value}" },
+    "progressTrackColor": { "value": "{color.gray.200.value}", "_consolidated": "Was #CACACA — merged into gray-200 (15-unit difference), same threshold as earlier gray consolidations." },
+    "radius": { "value": "{radius.card.value}" }
+  },
