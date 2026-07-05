@@ -122,6 +122,60 @@
       "_assumption": "Two source nodes use different styles (Italic vs Bold) for the same 10px role — only fontSize/lineHeight are tokenized; fontFamily/fontWeight are left as authored per-node.",
       "fontSize":   { "value": "{fontSize.10.value}" },
       "lineHeight": { "value": "{lineHeight.10.value}" }
+    },
+
+    "_componentLibraryComment": "Roles below come from the component library built at Figma node 42:426 (header, footer, cs-hero, Loader, cs-card, ds-card, cs-section, cs-image). Sizes/weights are the real values found in each component.",
+    "headerBrand": {
+      "_violation": "Archivo 900 (Black) breaks spec Section 1 (editorial layer defines 400/700 only).",
+      "fontFamily": { "value": "{fontFamily.editorial.value}" },
+      "fontWeight": { "value": "{fontWeight.editorialBlack.value}" },
+      "fontSize":   { "value": "{fontSize.14.value}" },
+      "lineHeight": { "value": "{lineHeight.14.value}" }
+    },
+    "headerNavLabel": {
+      "_violation": "Source Code Pro 700 (Bold) breaks spec Section 1 (system layer defines 300/400 only).",
+      "fontFamily": { "value": "{fontFamily.system.value}" },
+      "fontWeight": { "value": "{fontWeight.systemBold.value}" },
+      "fontSize":   { "value": "{fontSize.16.value}" },
+      "lineHeight": { "value": "{lineHeight.16.value}" }
+    },
+    "csSectionHeading": {
+      "fontFamily": { "value": "{fontFamily.editorial.value}" },
+      "fontWeight": { "value": "{fontWeight.editorialBold.value}" },
+      "fontSize":   { "value": "{fontSize.48.value}" },
+      "lineHeight": { "value": "{lineHeight.48.value}" }
+    },
+    "csSectionLabel": {
+      "_violation": "Source Code Pro 500 (Medium) breaks spec Section 1 (system layer defines 300/400 only).",
+      "fontFamily": { "value": "{fontFamily.system.value}" },
+      "fontWeight": { "value": "{fontWeight.systemMedium.value}" },
+      "fontSize":   { "value": "{fontSize.16.value}" },
+      "lineHeight": { "value": "{lineHeight.16.value}" }
+    },
+    "dsCardLabelSmall": {
+      "_violation": "Source Code Pro 200 (ExtraLight) at 20px breaks spec Section 5 (200 forbidden below 32px) — worse than eyebrowLarge's 24px instance of the same issue.",
+      "fontFamily": { "value": "{fontFamily.system.value}" },
+      "fontWeight": { "value": "{fontWeight.systemExtraLight.value}" },
+      "fontSize":   { "value": "{fontSize.20.value}" },
+      "lineHeight": { "value": "{lineHeight.20.value}" }
+    },
+    "csCardMeta": {
+      "fontFamily": { "value": "{fontFamily.system.value}" },
+      "fontStyle_assumption": "Consistently 'SemiBold Italic' across all 4 source nodes (unlike csHeroMeta) — fully tokenized.",
+      "fontSize":   { "value": "{fontSize.14.value}" },
+      "lineHeight": { "value": "{lineHeight.14.value}" }
+    },
+    "csHeroMeta": {
+      "_assumption": "Source nodes mix Regular (3) and SemiBold Italic (1) at the same 14px size — only fontSize/lineHeight tokenized, family/style left as-authored, same treatment as progressLabel.",
+      "fontSize":   { "value": "{fontSize.14.value}" },
+      "lineHeight": { "value": "{lineHeight.14.value}" }
+    },
+    "footerLabel": {
+      "_violation": "Source Code Pro 600 (SemiBold) breaks spec Section 1 (system layer defines 300/400 only).",
+      "fontFamily": { "value": "{fontFamily.system.value}" },
+      "fontWeight": { "value": "{fontWeight.systemSemiBold.value}" },
+      "fontSize":   { "value": "{fontSize.16.value}" },
+      "lineHeight": { "value": "{lineHeight.16.value}" }
     }
   },
 
