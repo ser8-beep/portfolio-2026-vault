@@ -1,4 +1,4 @@
-  "spacing": {
+ "spacing": {
     "0":  { "value": "0px" },
     "1":  { "value": "2px" },
     "2":  { "value": "4px" },
@@ -18,8 +18,15 @@
     "16": { "value": "160px" }
   },
 
+  "radius": {
+    "small":   { "value": "5px", "_comment": "Found across cs-card, ds-card, cs-section, cs-image — a genuine third radius tier, not a variant of control(8)/card(24)." },
+    "control": { "value": "8px" },
+    "card":    { "value": "24px" },
+    "full":    { "value": "9999px" }
+  },
 
-   "breakpoint": {
-    "mobile":  { "value": "360px" },
-    "tablet":  { "value": "640px" },
-    "desktop": { "value": "1024px" }
+  "shadow": {
+    "sm": { "value": "0px 1px 2px rgba(15, 14, 14, 0.06)" },
+    "md": { "value": "0px 4px 8px rgba(15, 14, 14, 0.08)" },
+    "lg": { "value": "0px 8px 24px rgba(15, 14, 14, 0.12)" }
+  },
