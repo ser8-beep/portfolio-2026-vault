@@ -1,4 +1,4 @@
- "fontFamily": {
+  "fontFamily": {
     "editorial": { "value": "Archivo" },
     "system":    { "value": "'Source Code Pro'" }
   },
@@ -11,8 +11,11 @@
     "editorialExtraBold": { "value": "800", "_exception": "Violates spec Section 1 — used by loaderBrand ('SHIVANI K.' nameplate)." },
     "systemLight":       { "value": "300" },
     "systemRegular":     { "value": "400" },
-    "systemSemiBold":    { "value": "600", "_exception": "Not in spec's system layer (300/400 only) — used by loaderTagline." },
-    "systemExtraLight":  { "value": "200", "_exception": "Violates spec Section 5 (200 forbidden below 32px; this is 24px) — used by eyebrowLarge." }
+    "systemSemiBold":    { "value": "600", "_exception": "Not in spec's system layer (300/400 only) — used by loaderTagline, footerLabel." },
+    "systemMedium":      { "value": "500", "_exception": "Not in spec's system layer (300/400 only) — used by csSectionLabel." },
+    "systemBold":        { "value": "700", "_exception": "Not in spec's system layer (300/400 only) — used by headerNavLabel." },
+    "systemExtraLight":  { "value": "200", "_exception": "Violates spec Section 5 (200 forbidden below 32px; this is 24px) — used by eyebrowLarge, dsCardLabelSmall (dsCardLabelSmall is 20px, an even worse violation)." },
+    "editorialBlack":    { "value": "900", "_exception": "Violates spec Section 1 (editorial layer defines 400/700 only) — used by headerBrand." }
   },
 
   "fontSize": {
@@ -51,6 +54,7 @@
     "32": { "value": "44px" },
     "36": { "value": "48px" },
     "44": { "value": "56px" },
+    "48": { "value": "60px" },
     "56": { "value": "68px" },
     "64": { "value": "76px" },
     "72": { "value": "84px" }
@@ -60,3 +64,4 @@
     "tight":  { "value": "-0.02em" },
     "normal": { "value": "0em" },
     "wide":   { "value": "0.04em" }
+  },
