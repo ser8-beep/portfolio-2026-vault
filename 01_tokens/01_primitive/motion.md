@@ -1,4 +1,4 @@
-"zIndex": {
+  "zIndex": {
     "dropdown":      { "value": "1000" },
     "sticky":        { "value": "1100" },
     "modalBackdrop": { "value": "1200" },
