@@ -1,4 +1,4 @@
-"spacing": {
+  "spacing": {
     "0":  { "value": "0px" },
     "1":  { "value": "2px" },
     "2":  { "value": "4px" },
@@ -14,11 +14,12 @@
     "12": { "value": "64px" },
     "13": { "value": "80px" },
     "14": { "value": "96px" },
-    "15": { "value": "128px" }
+    "15": { "value": "128px" },
+    "16": { "value": "160px" }
+  },
 
 
-
-      "breakpoint": {
-    "mobile":  { "value": "0px" },
+   "breakpoint": {
+    "mobile":  { "value": "360px" },
     "tablet":  { "value": "640px" },
     "desktop": { "value": "1024px" }
