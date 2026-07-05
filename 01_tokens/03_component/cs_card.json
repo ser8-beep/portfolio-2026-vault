@@ -1,0 +1,12 @@
+ "csCard": {
+    "_figmaNode": "42:70",
+    "_variants": ["State=Default", "State=Hover"],
+    "tag": { "value": "{typography.tagLabel}" },
+    "meta": { "value": "{typography.csCardMeta}" },
+    "bg": { "value": "{color.bg.canvas.value}" },
+    "textColor": { "value": "{color.text.primary.value}" },
+    "accentDefault": { "value": "{color.action.primary.value}" },
+    "accentHover":   { "value": "{color.action.primaryDeep.value}" },
+    "radius": { "value": "{radius.small.value}" },
+    "gap": { "value": "{spacing.5.value}" }
+  },
